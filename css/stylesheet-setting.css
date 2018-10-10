@@ -1,0 +1,164 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*------------------------------- eric meyer -------------------*/
+@media (max-width: 480px) {
+.header{
+	height: 10%;
+}
+#arrow{
+	margin-top: 3%;
+	margin-left: 5%;
+}
+i {
+		border-color: black;
+		border-style: solid;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 1.5%;
+}
+.left{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+#logo1{
+  max-width: 7%;
+  margin-left: 45%;
+  margin-top: -5%;
+}
+#logout{
+	width: 5%;
+	margin-left: 90%;
+	margin-top: -5%;
+}
+#aarhus img{
+	margin-top: 2%;
+	width: 100%;
+}
+#aarhus{
+	border-bottom-style: solid;
+	border-bottom-width: 8px;
+	border-color: #f8c01a;
+}
+#profil img{
+	border-radius: 100px;
+	margin-left: 35%;
+	margin-top: -20%;
+	width: 30%;
+}
+#plus {
+	margin-top: -10%;
+	margin-left: 58%;
+	width: 7%;
+}
+.box{
+	margin-top: 15%;
+	margin-left: 20%;
+}
+.box{
+	margin-top: 2%;
+	margin-left: 20%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	border-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 1.5px;
+	width: 65%;
+}
+.box input{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	color: #000000;
+	border: none;
+	padding: 2%;
+}
+.box1{
+	margin-top: 15%;
+	margin-left: 20%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	color: #b8b8b8;
+	border-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	width: 60%;
+	padding: 2%;
+}
+.box2{
+	margin-top: 2%;
+	margin-left: 20%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14pt;
+	color: #b8b8b8;
+	border-style: solid;
+	border-bottom-color: #000000;
+	border-bottom-width: 1px;
+	width: 60%;
+	padding: 2%;
+}
+#button input{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	border-radius: 20px;
+	border: none;
+	color: #ffff;
+	width: 40%;
+	padding: 1.5%;
+	background-color: #1ea2a7;
+	margin-left: 30%;
+	margin-top: 15%;
+}
+#button1 input{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12pt;
+	border-radius: 20px;
+	border: none;
+	color: #ffff;
+	width: 40%;
+	padding: 1.5%;
+	background-color: #1ea2a7;
+	margin-left: 30%;
+	margin-top: 2%;
+	margin-bottom: 10%;
+}
+}
